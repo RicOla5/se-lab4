@@ -1,0 +1,4 @@
+# No successful firing when there is nothing to fire with
+# Both stores empty (0-0 torpedoes)
+GT4500,0,0,0,0
+TORPEDO,SINGLE  # both stores empty -> FAIL

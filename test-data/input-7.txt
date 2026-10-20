@@ -1,0 +1,4 @@
+# In ALL mode a partial success still counts as success
+# Primary loaded (10), secondary empty (0). ALL -> at least one success.
+GT4500,10,0,0,0
+TORPEDO,ALL  # primary fires, secondary empty -> at least one success

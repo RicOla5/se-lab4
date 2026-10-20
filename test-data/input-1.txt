@@ -1,0 +1,4 @@
+# The GT4500 can fire its torpedoes
+# Both stores loaded (10-10 torpedoes), never fails
+GT4500,10,0,10,0
+TORPEDO,SINGLE  # fire one torpedo from the primary store

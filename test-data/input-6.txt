@@ -1,0 +1,4 @@
+# In ALL mode the ship tries to fire both stores
+# Both stores loaded, never fails
+GT4500,10,0,10,0
+TORPEDO,ALL  # both stores fire
