@@ -1,0 +1,8 @@
+# SINGLE empty-store fallback the other way
+# Primary has 2 torpedoes, secondary is empty (0).
+# 1st firing: primary fires -> wasPrimaryFiredLast = true
+# 2nd firing: next in line is secondary, but it is empty, so the ship
+#             falls back to the primary again and fires from it.
+GT4500,2,0,0,0
+TORPEDO,SINGLE  # 1st -> primary store
+TORPEDO,SINGLE  # 2nd -> secondary empty, falls back to primary
