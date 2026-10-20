@@ -1,0 +1,4 @@
+# In SINGLE mode the primary store is fired first
+# Both stores loaded, this is the first firing
+GT4500,1,0,0,0
+TORPEDO,SINGLE  # should fire from the primary store

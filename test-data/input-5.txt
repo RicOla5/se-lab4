@@ -1,0 +1,5 @@
+# If a store shows error, it stops firing the other one, thereby fails
+# Primary always fails (failure rate = 1), secondary loaded and working.
+# SINGLE shots primary first -> err -> skips the other -> FAIL
+GT4500,10,1,10,0
+TORPEDO,SINGLE  # primary fails, doesn't try secondary -> FAIL

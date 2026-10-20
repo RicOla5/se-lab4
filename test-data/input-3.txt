@@ -1,0 +1,5 @@
+# In SINGLE mode the stores fire alternately (cooling)
+# Both stores loaded; two consecutive SINGLE firings
+GT4500,1,0,1,0
+TORPEDO,SINGLE  # 1st firing -> primary store
+TORPEDO,SINGLE  # 2nd firing -> secondary store (alternating)

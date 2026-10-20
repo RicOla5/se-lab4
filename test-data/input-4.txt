@@ -1,0 +1,8 @@
+# If the store next in line is empty, the ship tries the other one
+# Primary store has 1 torpedo, secondary is empty (0). Primary fires first.
+# On the 2nd firing the store next in line (secondary) is empty, so it tries the primary again
+# but that is empty too, so the 2nd firing is FAIL.
+# next in line (primary) is empty first, so it fires the secondary -> SUCCESS.
+GT4500,0,0,1,0
+TORPEDO,SINGLE  # primary empty -> fires from the secondary store
+TORPEDO,SINGLE  # everything is empty, should fail
